@@ -1,0 +1,99 @@
+// /* Ensure full height for the page */
+// html, body {
+//     height: 100%;
+//     margin: 0;
+//     display: flex;
+//     flex-direction: column;
+//   }
+  
+//   /* Ensure navbar stays at the top */
+//   .navbar {
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//     z-index: 10; /* Ensures it stays above the content */
+//   }
+  
+//   /* Make sure the login container takes the full height */
+//   .login-container {
+//     display: flex;
+//     flex-direction: column;
+//     height: 100%;
+//     padding-top: 80px; /* Add space to avoid overlap with navbar */
+//   }
+  
+//   /* Flexbox for the login box to center content vertically and horizontally */
+//   .login-box {
+//     flex: 1;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 20px;
+//   }
+  
+//   /* Style the form container - make the form bigger */
+//   .login-form {
+//     max-width: 500px; /* Increase max-width for a larger form */
+//     width: 100%;
+//     padding: 30px; /* Increase padding for more space inside the form */
+//     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Larger shadow for emphasis */
+//     border-radius: 10px; /* Slightly more rounded corners */
+//     background-color: #fff;
+//   }
+  
+//   /* Style for the input fields */
+//   .login-form .ant-input, .login-form .ant-input-password {
+//     border-radius: 8px;
+//     padding: 15px; /* Larger padding for the input fields */
+//     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1); /* Larger shadow for input fields */
+//   }
+  
+//   /* Button Styles */
+//   .login-form .login-button {
+//     width: 100%;
+//     padding: 15px 25px; /* Bigger button with more padding */
+//     border-radius: 8px;
+//     background-color: #2E8B57;
+//     border: none;
+//     font-size: 18px; /* Larger font size */
+//   }
+  
+//   /* Google Login Button */
+//   .login-form .google-btn {
+//     background-color: #2E8B57;
+//     color: #fff;
+//     width: 100%;
+//     padding: 15px 25px; /* Bigger Google login button */
+//     border-radius: 8px;
+//     font-size: 18px; /* Larger font size */
+//   }
+  
+//   /* Divider between login options */
+//   .login-form .ant-divider {
+//     margin: 20px 0; /* Larger space around the divider */
+//   }
+  
+//   /* Links and extra options */
+//   .extra-options {
+//     text-align: center;
+//     margin-top: 30px; /* Larger space between options */
+//   }
+  
+//   .extra-options a {
+//     color: #2E8B57;
+//   }
+  
+//   .extra-options a:hover {
+//     text-decoration: underline;
+//   }
+  
+//   /* Ensure footer stays at the bottom */
+//   footer {
+//     margin-top: auto;
+//   }
+  
+//   /* Prevent any overflow */
+//   body {
+//     overflow: hidden;
+//   }
+  
